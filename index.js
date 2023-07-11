@@ -22,10 +22,10 @@ const { oauth2 } = require("googleapis/build/src/apis/oauth2/index.js");
 const mysql = require("mysql");
 
 const connection = mysql.createConnection({
-  host: "localhost", // O host do banco. Ex: localhost
-  user: "admin", // Um usuário do banco. Ex: user
-  password: "2003", // A senha do usuário. Ex: user123
-  database: "pixelthree", // A base de dados a qual a aplicação irá se conectar, deve ser a mesma onde foi executado o Código 1. Ex: node_mysql
+  host: "", // O host do banco. Ex: localhost
+  user: "", // Um usuário do banco. Ex: user
+  password: "", // A senha do usuário. Ex: user123
+  database: "", // A base de dados a qual a aplicação irá se conectar, deve ser a mesma onde foi executado o Código 1. Ex: node_mysql
 });
 
 connection.connect((err) => {
