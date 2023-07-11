@@ -34,7 +34,7 @@ Database:
 
 ## Autores
 
-- [@thyagodantas](https://www.github.com/octokatherine)
+- [@thyagodantas](https://www.github.com/thyagodantas)
 
   Currently the project is running through the domain https://pixelthree.com.br
 
