@@ -1,0 +1,617 @@
+.specialistBtn {
+  position: relative;
+  top: 0;
+  font-family: "Poppins", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 14px rgb(0 0 0 / 30%);
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
+  padding: 10px 10px 10px 10px;
+  background: linear-gradient(45deg, #06edc4 0%, #13adff 100%);
+  cursor: pointer;
+  color: #0f1670;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+section.presentation {
+  margin-top: 100px;
+  height: 1040px;
+  width: 100%;
+}
+
+.background-presentation {
+  background-image: url(../images/criacao-sites-baratos.webp);
+  height: inherit;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.presentation-content {
+  padding-top: 100px;
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    padding: 15px 0;
+  }
+
+  .presentation-text {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 41px;
+    font-weight: 200;
+  }
+
+  b {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 41px;
+  }
+
+  .presentation-title {
+    width: 100%;
+    text-align: center;
+    color: #13edff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .presentation-button {
+    z-index: 3;
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 14px rgb(0 0 0 / 30%);
+    fill: #0f1670;
+    color: #0f1670;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 16%);
+    padding: 12px 40px 12px 40px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .presentation-button:hover {
+    transform: scale(0.9);
+  }
+}
+
+.developing-background-presentation {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  z-index: 1;
+}
+
+.hosts-container {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  padding-top: 10px;
+  overflow: hidden;
+  height: 100px;
+  z-index: 2;
+
+  & .hosts-presentation {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    padding: 5px 1%;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    left: 75%;
+
+    .image-host {
+      overflow: hidden;
+      padding-top: 10px;
+      width: 23%;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .title-host {
+      width: 77%;
+      padding-left: 10px;
+
+      h4 {
+        font-size: 17px;
+        color: #4317d4;
+      }
+
+      p {
+        color: #464646;
+        font-size: 14px;
+        line-height: 1.6em;
+      }
+    }
+  }
+}
+
+section.middle-presentation {
+  height: 100%;
+  padding: 10px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-middle-presentation {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/base-foguete.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  overflow: hidden;
+}
+
+.rocket-presentation {
+  position: relative;
+  top: -10%;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+}
+
+.about-signature {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.about-signature-content {
+  width: 100%;
+}
+
+.about-signature-title {
+  text-align: center;
+
+  p,
+  h2 {
+    padding: 10px 0;
+  }
+
+  #signature-title {
+    color: #13adff;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  h2 {
+    color: #4317d4;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  #signature-description {
+    color: #313c56;
+    font-size: 18px;
+  }
+}
+
+.about-signature-blocks-content {
+  display: flex;
+  width: 100%;
+
+  .block-one {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .block-two {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .block-three {
+    width: 33.3%;
+    text-align: center;
+  }
+
+  .text-box-signature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p.title-step-signature {
+      margin-bottom: 2px;
+      color: #313c56;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    h3 {
+      color: #313c56;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.7em;
+    }
+  }
+}
+
+.support-maintenance {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.support-content {
+  display: flex;
+  width: 100%;
+}
+
+.block-box-one {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+
+  h3 {
+    width: 100%;
+    color: #112177;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+
+.o-one,
+.o-two,
+.o-three {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  padding: 10px 0;
+
+  img {
+    width: 100%;
+    max-width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+}
+
+.block-box-two {
+  width: 50%;
+  overflow: hidden;
+  margin-left: -30px;
+}
+
+.astronaut {
+  width: 100%;
+  position: relative;
+  z-index: 6;
+  top: 15%;
+  left: 40%;
+  background-image: url(../images/criar-site-18.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 150px;
+  height: 150px;
+}
+
+.bg-block-two {
+  position: relative;
+  top: -130px;
+  z-index: 5;
+  background-image: url(../images/criar-site-1-1-768x527.png.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.block-box-information {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.information-container {
+  display: flex;
+  width: 100%;
+}
+
+.block-box-information-one,
+.block-box-information-two,
+.block-box-information-three {
+  display: inherit;
+  margin: 0 8px;
+  width: 33.3%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.elementor-tittle {
+  margin: 7px 0;
+  color: #464646;
+  font-size: 21px;
+}
+
+.elementor-description {
+  color: #464646;
+  font-size: 16px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.show-website-button {
+  width: 100%;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.show-websites-model {
+  font-size: 18px;
+  font-weight: 500;
+  fill: #fff;
+  color: #fff;
+  border-radius: 4px 4px 4px 4px;
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+  padding: 18px 60px 16px 60px;
+  background: linear-gradient(45deg, #06edc4 0%, #13adff 100%);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+.portifolio-box {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.portifolio-box-container {
+  width: 100%;
+}
+
+.portifolio-box-text {
+  .portifolio-text-one {
+    text-align: center;
+    color: #4317d4;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .portifolio-text-two {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Poppins", Sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .portifolio-text-three {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.portifolio-box-content-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 60px 40px;
+}
+
+.portifolio-grid-item {
+  text-align: center;
+  padding: 0 20px;
+  padding-top: 6px;
+  width: 100%;
+  max-width: 400px;
+  padding-bottom: 30px;
+
+  .img-portifolio {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+
+    &:hover {
+      animation: floating 1.5s ease-in-out infinite;
+    }
+
+    @keyframes floating {
+      0% {
+        transform: translate(0, 0px);
+      }
+      50% {
+        transform: translate(0, -6px);
+      }
+      100% {
+        transform: translate(0, -0px);
+      }
+    }
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+    border: 0.5px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 1px 5px -1px rgba(0, 0, 0, 0.75);
+  }
+
+  .portifolio-grid-item-categoria {
+    color: #004c6d;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  .portifolio-grid-item-titulo {
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #000b5e;
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.show-portifolio-button {
+  text-align: center;
+}
+
+/* Estilo do modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Estilo do conteúdo do modal */
+.modal-content {
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Estilo do botão de fechar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilo do formulário dentro do modal */
+.modal form .form-group {
+}
+
+.modal form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.modal form input,
+.modal form textarea {
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #f3f3f3;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal form input:focus,
+.modal form textarea:focus {
+  outline: none;
+  background-color: #e5e5e5;
+}
+
+.modal form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.modal form button[type="submit"] {
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.modal form button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.alert {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.error-message {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+.success-message {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}

@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <%- include('includes/metas.ejs'); -%>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Site Expresso - Pixel3</title>
+  </head>
+  <body>
+    <%- include('includes/header.ejs'); -%>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const mensagemErro = urlParams.get("mensagem");
+
+      if (mensagemErro) {
+        alert(mensagemErro);
+      }
+    </script>
+
+    <section class="presentation">
+      <div class="background-presentation">
+        <div class="presentation-content">
+          <p class="presentation-title">SITE EXPRESSO E ECONÔMICO</p>
+          <h1>Tenha um <b>Site Profissional</b> em até 5 dias!</h1>
+          <p class="presentation-text">
+            Conheça o site por assinatura, um jeito fácil, rápido e barato de
+            ter um <br />
+            site profissional feito por especialistas!
+          </p>
+          <a href="#portifolio" class="presentation-button"
+            >VER MODELOS DE SITE</a
+          >
+        </div>
+        <div class="hosts-container">
+          <div class="hosts-presentation">
+            <div class="image-host">
+              <img src="./images/aws.webp" alt="" />
+            </div>
+            <div class="title-host">
+              <h4>Amazon AWS</h4>
+              <p>Hospedagem Veloz e Segura</p>
+            </div>
+          </div>
+        </div>
+        <div class="developing-background-presentation">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player
+            src="https://cdn.webinside.co.il/wp-content/uploads/2020/09/data-1.json"
+            background="transparent"
+            speed="0.7"
+            style="width: 100%; height: 700px"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    </section>
+
+    <section class="middle-presentation">
+      <div class="background-middle-presentation">
+        <div class="rocket-presentation">
+          <lottie-player
+            src="https://assets3.lottiefiles.com/packages/lf20_dqe40b1q.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section class="about-signature">
+      <div class="container">
+        <div class="about-signature-content">
+          <div class="about-signature-title">
+            <p id="signature-title">SITE POR ASSINATURA</p>
+            <h2>SEU SITE RÁPIDO, ECONÔMICO E SEGURO</h2>
+            <p id="signature-description">
+              Na UpSites seu site será hospedado no mesmo servidor que a Netflix
+              e UBER. Você terá seu site hospedado na Amazon Web Services,
+              garantindo altas métricas de performance, máxima velocidade e
+              segurança.
+            </p>
+          </div>
+          <div class="about-signature-blocks-content">
+            <div class="block-one">
+              <img src="./images/block1.webp" alt="" />
+              <div class="text-box-signature">
+                <p class="title-step-signature">Passo 01</p>
+                <h3>Escolha um modelo</h3>
+                <p>
+                  Diversos layouts desenvolvidos por nossos <br />
+                  designers experientes
+                </p>
+              </div>
+            </div>
+            <div class="block-two">
+              <img src="./images/block2.webp" alt="" />
+              <div class="text-box-signature">
+                <p class="title-step-signature">Passo 2</p>
+                <h3>Envie seu conteúdo</h3>
+                <p>
+                  Recebemos seu conteúdo através de nossa plataforma, rápida e
+                  intuitiva
+                </p>
+              </div>
+            </div>
+            <div class="block-three">
+              <img src="./images/block3.webp" alt="" />
+              <div class="text-box-signature">
+                <p class="title-step-signature">Passo 3</p>
+                <h3>Seu site no ar!</h3>
+                <p>
+                  Pronto! Seu negócio está pronto para <br />
+                  alcançar mais pessoas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="support-maintenance">
+      <div class="container">
+        <div class="support-content">
+          <div class="block-box-one">
+            <h3>SUPORTE E MANUTENÇÃO DO SITE</h3>
+            <div class="o-one">
+              <img src="./images/criar-site-17.png" alt="" />
+              <div class="text-one">
+                <h4>Otimização de performance</h4>
+                <p>
+                  Desenvolvemos uma infraestrutura focada em para <br />
+                  garantir máxima performance.
+                </p>
+              </div>
+            </div>
+            <div class="o-two">
+              <img src="./images/criar-site-15.png" alt="" />
+              <div class="text-one">
+                <h4>Manutenção e cuidados com o site</h4>
+                <p>
+                  Temos uma rotina de atualizações mensais para <br />
+                  deixar seu site sempre em dia e seguro.
+                </p>
+              </div>
+            </div>
+            <div class="o-two">
+              <img src="./images/criar-site-16.png" alt="" />
+              <div class="text-one">
+                <h4>Atendimento exclusivo</h4>
+                <p>
+                  Oferecemos atendimento por e-mail, telefone e chat <br />
+                  online, com ótimo tempo de resposta.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="block-box-two">
+            <div class="astronaut"></div>
+            <div class="bg-block-two"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block-box-information">
+      <div class="container">
+        <div class="information-container">
+          <div class="block-box-information-one">
+            <img src="./images/criar-sites-10.png.webp" alt="" />
+            <h3 class="elementor-tittle">Solução tudo-em-um</h3>
+            <p class="elementor-description">
+              Tenha um site criado por profissionais e hospedado na Amazon
+            </p>
+          </div>
+          <div class="block-box-information-two">
+            <img src="./images/criar-sites-10.png.webp" alt="" />
+            <h3 class="elementor-tittle">Solução tudo-em-um</h3>
+            <p class="elementor-description">
+              Tenha um site criado por profissionais e hospedado na Amazon
+            </p>
+          </div>
+          <div class="block-box-information-three">
+            <img src="./images/criar-sites-10.png.webp" alt="" />
+            <h3 class="elementor-tittle">Solução tudo-em-um</h3>
+            <p class="elementor-description">
+              Tenha um site criado por profissionais e hospedado na Amazon
+            </p>
+          </div>
+        </div>
+        <div class="show-website-button">
+          <button class="show-websites-model">VER MODELOS DE SITE</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="portifolio" class="portifolio-box">
+      <div class="container">
+        <div class="portifolio-box-container">
+          <div class="portifolio-box-text">
+            <p class="portifolio-text-one">criação de sites econômicos</p>
+            <h3>nosso <b>Portfólio</b></h3>
+            <p class="portifolio-text-two">
+              Confira alguns dos websites desenvolvidos recentemente por nós!
+            </p>
+            <p class="portifolio-text-three">Queremos você aqui também!</p>
+          </div>
+        </div>
+        <div class="portifolio-box-content-grid">
+          <% for (let i = 0; i < portifolio.length ; i++) { %>
+          <div class="portifolio-grid-item">
+            <div class="img-portifolio">
+              <% let imagem = portifolio[i].imagem.toString("base64") %> <% let
+              extensao = portifolio[i].imagem_extensao %> <% let tipo_mime = ''
+              %> <% if (extensao === 'png') { tipo_mime = 'image/png' } %> <% if
+              (extensao === 'svg') { tipo_mime = 'image/svg' } %> <% if
+              (extensao === 'webp') { tipo_mime = 'image/webp' } %>
+              <img src="data:<%= tipo_mime %>;base64,<%= imagem %>" alt="" />
+            </div>
+            <p class="portifolio-grid-item-categoria">
+              <%= portifolio[i].categoria %>
+            </p>
+            <p class="portifolio-grid-item-titulo"><%= portifolio[i].nome %></p>
+          </div>
+          <% } %>
+        </div>
+        <div class="show-portifolio-button">
+          <button class="open-modal show-websites-model">
+            CONTRATE UM SITE
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2>Entre em contato</h2>
+        <form id="formulario1" action="/site-expresso" method="post">
+          <div class="alert error-message" style="display: none"></div>
+          <div class="alert success-message" style="display: none"></div>
+          <label for="name">Nome completo</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="email" />
+          <label for="telefone">Celular (Com DDD)</label>
+          <input type="tel" id="telefone" name="telefone" />
+          <label for="categoria">Categoria do site</label>
+          <input type="text" id="categoria" name="categoria" />
+          <label for="empresa">Nome da sua empresa</label>
+          <input type="text" id="empresa" name="empresa" />
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <%- include('includes/footer.ejs'); -%> <%- include('includes/scripts.ejs');
+    -%>
+  </body>
+</html>
